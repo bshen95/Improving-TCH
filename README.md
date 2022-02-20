@@ -1,32 +1,39 @@
 ===========================================================
 
-# Improving TCH
+Improved TCH
 
 ===========================================================
 
 
 Introduction
 ===========================================================
-An implementation of End Point Search (EPS). EPS is a fast and
-exact path planner that works in Euclidean space. The implementation
-of EPS is mainly follows the description by Shen et al. [1]
+An implementation of Improved Time-dependent Contraction Hierarchies (TCH). 
+TCH is a fast and exact solver for pathfinding in Time-dependent road networks.
+For more details, please see [1]. This implementation further improve the TCH 
+query performance by (i) applying landmark heuristic; (ii) applying (R)TCPD heuristic; 
+and (iii) splitting the time domain to construct a TCH for different time periods.
+The implementation of Improved TCH is mainly following the description by Shen et al. [2]
 
-It must be noted that EPS is released under the terms of GNU AGPL
-version 3 (see files 'LICENSE' and 'COPYING'). The source code of EPS
-is released mainly for research purpose. If you are using our source
-code, please carefully cite our paper [1].
+It must be noted that Improved TCH is released under the terms of GNU AGPL
+version 3 (see files 'LICENSE' and 'COPYING'). Also, note that the implementation of Improved
+TCH is based on the KaTCH (https://github.com/GVeitBatz/KaTCH). Please also see their license
+when using the source code. 
+
+Finally, the source code of Improved TCH is released mainly for research purposes. 
+If you are using our source code, please carefully cite our paper [2].
 
 
 
 
 Dataset
 ===========================================================
-EPS contains four benchmark suites (dao, da2, sc1, bgmaps) retrieved
-from MovingAI (https://movingai.com). The
-merged-meshes are provide by the authors of Polyanya [2] and available
-from repository (https://bitbucket.org/%7B3c286763-d509-45c2-b036-75814ce8955f%7D/)
+Improved TCH contains a real-world dataset taken from the public repository (https://uofi.app.box.com/v/NYC-traffic-estimates)
+The dataset contains the road network for New York (NY) and the historical travel time that is estimated every hour 
+during the entire 2013 year. To compute the travel time function for each edge, we take the travel time data from Tuesday to Thursday 
+and average them for each hour after filtering out the data by two standard deviations.
 
-
+The converted NY dataset contains two files: (i) NY.tpgr (input file for building TCH) and (ii) NY.coordinate (The location of each vertex).
+For other synthetic datasets used in [2], please contact us if you need them.
 
 Requirements
 ===========================================================
@@ -34,6 +41,7 @@ Requirements
 Libraries
 ----------------
 - OpenMP
+- BOOST strong typedef and pairing heap
 
 Language Version
 ----------------
@@ -43,29 +51,23 @@ Language Version
 
 Compiling and Running
 ===========================================================
-EPS is currently using Cmake to compile, you need to modify
+Improved TCH is currently using Cmake to compile. You need to modify
 CMakeLists.txt based on your machine setting. After that, run
 "make fast" to compile.
 
+Currently, we provide two bash scripts to quickly reproduce the
+experimental results reported in paper [2].
 
-Currently, we provide three bash scripts to quickly reproduce the
-experimental results reported in paper [1].
+- bash run_all_preprocessing.sh [DATASET_NAME] <br />
+e.g., run "bash run_all_preprocessing.sh dataset/NY"
+This bash command creates all the indexes (e.g., TCH, STCH, MTCH, landmarks and (R)TCPDs)
+needed for Improved TCH.
 
-- bash preprocessing.sh [MAP_NAME] <br />
-e.g., run "bash preprocessing.sh dao"
-This bash command creates all the indexes (visibility graph, CPD)
-needed for End Point Search for all the maps in the benchmark suite (dao).
-
-- bash benchmark_EPS.sh [MAP_NAME] <br />
-e.g., run "bash benchmark_EPS.sh dao"
-This bash command simply runs EPS [1] and Polyanya [2] for all the maps in
-the benchmark suite (dao) using the queries taken from MovingAI.
-
-- bash clean_index.sh <br />
-e.g., run "bash clean_index.sh".
-This bash command simply  delete all the indexes for all benchmark suites
-
-
+- bash run_all_experiments.sh [DATASET_NAME]  <br />
+e.g., run "bash run_all_experiments.sh dataset/NY"
+This bash command simply runs all the algorithms described in [2] using randomly generated queries.
+It will automatically output the query performance of each algorithm into the directory: dataset/NY/results/performance.
+For specific algorithm, please see ./run_experiments.cpp for detail.
 
 Contact
 ===========================================================
@@ -76,13 +78,13 @@ For any question, please contact Bojie.Shen@monash.edu.
 References
 ==========
 
-[1] B. Shen, M. A. Cheema, D. Harabor, P. J. Stuckey,
-    Euclidean pathfinding with compressed path databases,
-    in: Proceedings of the Twenty-Ninth International Joint
-    Conference on Artificial Intelligence, IJCAI 2020, 2020,
-    pp. 4229–4235.
-
-[2] M. Cui, D. D. Harabor, A. Grastien, Compromise-free pathfinding
-    on a navigation mesh, in: Proceedings of the Twenty-Sixth International
-    Joint Conference on Articial Intelligence, IJCAI 2017, 2017,
-    pp. 496-502.
+[1] Gernot Veit Batz, Robert Geisberger, Peter Sanders, and Christian
+    Vetter. "Minimum Time-Dependent Travel Times with Contraction
+    Hierarchies", ACM Journal of Experimental Algorithmics,
+    18(1.4):1--43, 2013.
+    
+[2] B. Shen, M. A. Cheema, D. Harabor, P. J. Stuckey,
+    Improving Time-dependent Contraction Hierarchies,
+    in: Proceedings of the 32nd International Conference on 
+    Automated Planning and Scheduling, ICAPS 2022.
+    
