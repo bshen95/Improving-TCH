@@ -59,12 +59,12 @@ Currently, we provide two bash scripts to quickly reproduce the
 experimental results reported in paper [2].
 
 - bash run_all_preprocessing.sh [DATASET_NAME] <br />
-e.g., run "bash run_all_preprocessing.sh dataset/NY"
+e.g., run "bash run_all_preprocessing.sh dataset/NY" <br />
 This bash command creates all the indexes (e.g., TCH, STCH, MTCH, landmarks and (R)TCPDs)
 needed for Improved TCH.
 
 - bash run_all_experiments.sh [DATASET_NAME]  <br />
-e.g., run "bash run_all_experiments.sh dataset/NY"
+e.g., run "bash run_all_experiments.sh dataset/NY" <br />
 This bash command simply runs all the algorithms described in [2] using randomly generated queries.
 It will automatically output the query performance of each algorithm into the directory: dataset/NY/results/performance.
 For specific algorithm, please see ./run_experiments.cpp for detail.
