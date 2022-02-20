@@ -106,12 +106,12 @@ int main(int argc, char** argv)
 
     const char* binary_name = argv[0];
 
-    if ( argc != 3 )
+    if ( argc != 2 )
     {
         std::cerr
                 << std::endl
                 << "USAGE: " << binary_name
-                << "<.tch output file> <n hours>" << std::endl
+                << "<.tch output file>" << std::endl
                 << std::endl;
 
         return EXIT_FAILURE;

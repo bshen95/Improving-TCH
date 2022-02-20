@@ -2070,21 +2070,5 @@ int main(int argc, char** argv) {
     construct_mtch_tcpd<&one_MTCH_period>(1,1,tpgr_input_file_name, btch_input_file_name, output_dir_name);
     construct_mtch_tcpd<&two_MTCH_period>(1,2,tpgr_input_file_name, btch_input_file_name, output_dir_name);
     construct_mtch_tcpd<&four_MTCH_period>(1,4,tpgr_input_file_name, btch_input_file_name, output_dir_name);
-//
-    //tch_cpd
-//    construct_min_tch_cpd_with_ch_ordering(tpgr_input_file_name, btch_input_file_name, output_dir_name);
-//    construct_min_tch_cpd_down_only(tpgr_input_file_name, btch_input_file_name, output_dir_name);
 
-//    //gtch_cpd
-//    construct_hourly_gtch_cpd(tpgr_input_file_name, btch_input_file_name, output_dir_name);
-//    construct_hourly_gtch_cpd_average(tpgr_input_file_name, btch_input_file_name, output_dir_name);
-//    construct_hourly_gtch_cpd_4h(tpgr_input_file_name, btch_input_file_name, output_dir_name);
-
-    //tch_cpd
-//    construct_hourly_tch_cpd(tpgr_input_file_name, btch_input_file_name, output_dir_name);
-//    print_raw_first_move(tpgr_input_file_name, btch_input_file_name, output_dir_name,55073);
-//    print_raw_first_move_with_wkt(tpgr_input_file_name, btch_input_file_name, output_dir_name,55073);
-//    check_raw_first_move(tpgr_input_file_name, btch_input_file_name, output_dir_name);
-//    check_graph_difference(tpgr_input_file_name, btch_input_file_name, output_dir_name);
-//     check_node_level (tpgr_input_file_name, btch_input_file_name, output_dir_name);
 }

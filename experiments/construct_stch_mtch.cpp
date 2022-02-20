@@ -180,19 +180,19 @@ int main(int argc, char** argv)
 
     const char* binary_name = argv[0];
 
-    if ( argc != 4 )
+    if ( argc != 3 )
     {
         std::cerr
                 << std::endl
                 << "USAGE: " << binary_name
-                << " <.tpgr input file> <hour> <n threads>" << std::endl
+                << " <.tpgr input file> <n threads>" << std::endl
                 << std::endl;
 
         return EXIT_FAILURE;
     }
 
     const std::string tpgr_input_file_name(argv[1]);
-    const int n_threads = std::stoi(std::string(argv[3]));
+    const int n_threads = std::stoi(std::string(argv[2]));
 
     // construct STCH
     construct_Hourly_TCH<&STCH_period>(tpgr_input_file_name,n_threads);
@@ -201,37 +201,6 @@ int main(int argc, char** argv)
     construct_n_Hourly_TCH<&one_MTCH_period>(1,tpgr_input_file_name,n_threads);
     construct_n_Hourly_TCH<&two_MTCH_period>(1,tpgr_input_file_name,n_threads);
     construct_n_Hourly_TCH<&four_MTCH_period>(1,tpgr_input_file_name,n_threads);
-
-//
-//    auto t1 = katch::util::time_stamp();
-//    std::vector<EdgeInfo> edge_list = katch::tpgr_format::read_edges<EdgeInfo>(tpgr_input_file_name + "_" + hour+".tpgr");
-//
-//    if ( edge_list.empty() )
-//    {
-//        KATCH_ERROR("Empty graph.\n");
-//        return EXIT_FAILURE;
-//    }
-//
-//    Graph graph(std::move(edge_list));
-//    KATCH_STATUS("Graph has " << graph.get_n_nodes() << " nodes, " << graph.get_n_edges() << " edges.\n");
-//
-//    katch::Ordering<&period> ordering(std::move(graph), tpgr_input_file_name+"_" + hour+".btch");
-//    std::cout<<"here"<<std::endl;
-//    ordering.order_and_construct(n_threads);
-//    KATCH_STATUS("Done.\n");
-//    auto t2 = katch::util::time_stamp();
-//
-//    std::vector<EdgeInfo> edge_list2 = katch::btch_format::read_edges<EdgeInfo>(tpgr_input_file_name+"_" + hour+".btch",185000.0);
-//    katch::SearchGraph<&period> htch_graph(std::move(edge_list2));
-//
-//    KATCH_STATUS("HTCH size "+ std::to_string((double)htch_graph.get_index_size()/1000000) + " MB.\n");
-//    std::string main_name = tpgr_input_file_name.substr(0,tpgr_input_file_name.find_last_of("/"));
-//    std::ofstream myFile(main_name+"/results/preprocessing/htch_preprocessing_"+hour+".csv");
-//    myFile<<"build_time,memory_cost\n";
-//    myFile<<std::fixed<<std::setprecision(8)<<katch::util::get_duration_in_seconds(t1, t2)/60
-//          <<","<<(double)htch_graph.get_index_size()/1000000
-//          <<"\n";
-//    myFile.close();
 
 
     return EXIT_SUCCESS;

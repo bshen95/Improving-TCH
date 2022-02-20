@@ -561,12 +561,12 @@ int main(int argc, char** argv) {
     const std::string btch_input_file_name(argv[2]);
     const std::string output_dir_name(argv[3]);
 
+    // build RTPD for only target row
+    construct_min_reverse_tch_cpd(tpgr_input_file_name, btch_input_file_name, output_dir_name);
 
-//    construct_min_reverse_tch_cpd(tpgr_input_file_name, btch_input_file_name, output_dir_name);
-
-//    construct_reverse_hourly_htch_cpd<&h_period_5>(tpgr_input_file_name, btch_input_file_name, output_dir_name);
-
-
+    // record the actual building time
     construct_min_reverse_tch_cpd_eval_time(tpgr_input_file_name, btch_input_file_name, output_dir_name);
-//    construct_reverse_hourly_htch_cpd_eval_time<&h_period_5>(tpgr_input_file_name, btch_input_file_name, output_dir_name);
+
+    //    construct_reverse_hourly_htch_cpd<&h_period_5>(tpgr_input_file_name, btch_input_file_name, output_dir_name);
+    //    construct_reverse_hourly_htch_cpd_eval_time<&h_period_5>(tpgr_input_file_name, btch_input_file_name, output_dir_name);
 }

@@ -207,8 +207,8 @@ void run_experiments( const std::string& algorithm, const std::string& input_dir
     source =  load_vector<int>(main_name+".source");
     target =  load_vector<int>(main_name+".target");
     euclidean_distance = load_vector<double>(main_name+".Euclidean");
-    if(algorithm == "tch"){
-        KATCH_STATUS("Benchmark algorithm: TCH\n");
+    if(algorithm == "btch"){
+        KATCH_STATUS("Benchmark algorithm: BTCH\n");
         using Graph = katch::BTCH::Graph;
         using EdgeInfo = katch::EdgeInfo<Graph::TTF>;
         std::vector<EdgeInfo> edge_list = katch::btch_format::read_edges<EdgeInfo>(main_name+".btch",864000.0);
@@ -218,13 +218,13 @@ void run_experiments( const std::string& algorithm, const std::string& input_dir
 
         for(int departure_time = 0; departure_time <= 864000; departure_time += test_period){
 
-            string result_file = output_dir_name +"/tch_"+ to_string((int)departure_time)+".csv";
+            string result_file = output_dir_name +"/btch_"+ to_string((int)departure_time)+".csv";
             run_search(query,result_file,departure_time);
         }
         std::cout<<std::endl;
-    }else if(algorithm == "tch_l_star"){
+    }else if(algorithm == "btch_l"){
 
-        KATCH_STATUS("Benchmark algorithm: TCH with landmark heuristic\n");
+        KATCH_STATUS("Benchmark algorithm: BTCH with landmark heuristic\n");
         using Graph = katch::BTCH_L::Graph;
         using EdgeInfo = katch::EdgeInfo<Graph::TTF>;
         std::vector<EdgeInfo> edge_list = katch::btch_format::read_edges<EdgeInfo>(main_name+".btch",864000.0);
@@ -237,15 +237,15 @@ void run_experiments( const std::string& algorithm, const std::string& input_dir
             query->load_landmark(main_name+".landmark_"+ to_string(num_landmarks),num_landmarks);
             for(int departure_time = 0; departure_time <= 864000; departure_time += test_period){
 
-                string result_file = output_dir_name +"/tch_l_star_" + to_string(num_landmarks)+"_"+ to_string((int)departure_time)+".csv";
+                string result_file = output_dir_name +"/btch_l_" + to_string(num_landmarks)+"_"+ to_string((int)departure_time)+".csv";
                 run_search(query,result_file,departure_time);
             }
             std::cout<<std::endl;
         }
 
 
-    }else if (algorithm == "tch_cpd"){
-        KATCH_STATUS("Benchmark algorithm: TCH CPD\n");
+    }else if (algorithm == "ftch_tcpd"){
+        KATCH_STATUS("Benchmark algorithm: FTCH with TCPD heuristic\n");
         using Graph = katch::FTCH_TCPD::Graph;
         using EdgeInfo = katch::EdgeInfo<Graph::TTF>;
         std::vector<EdgeInfo> edge_list = katch::btch_format::read_edges<EdgeInfo>(main_name+".btch",864000.0);
@@ -259,13 +259,13 @@ void run_experiments( const std::string& algorithm, const std::string& input_dir
 
 //        int departure_time = 0;
         for(int departure_time = 0; departure_time <= 864000; departure_time += test_period){
-            string result_file = output_dir_name +"/tch_cpd_"+ to_string((int)departure_time)+".csv";
+            string result_file = output_dir_name +"/ftch_tcpd_"+ to_string((int)departure_time)+".csv";
             run_search(query,result_file,departure_time);
         }
         std::cout<<std::endl;
     }
-    else if (algorithm == "rev_tch_cpd"){
-        KATCH_STATUS("Benchmark algorithm: Rev TCH CPD\n");
+    else if (algorithm == "ftch_rtpd"){
+        KATCH_STATUS("Benchmark algorithm: FTCH with RTPD heuristic\n");
         using Graph = katch::FTCH_RTPD::Graph;
         using EdgeInfo = katch::EdgeInfo<Graph::TTF>;
         std::vector<EdgeInfo> edge_list = katch::btch_format::read_edges<EdgeInfo>(main_name+".btch",864000.0);
@@ -279,12 +279,12 @@ void run_experiments( const std::string& algorithm, const std::string& input_dir
 
 //        int departure_time = 0;
         for(int departure_time = 0; departure_time <= 864000; departure_time += test_period){
-            string result_file = output_dir_name +"/rev_tch_cpd_"+ to_string((int)departure_time)+".csv";
+            string result_file = output_dir_name +"/ftch_rtpd_"+ to_string((int)departure_time)+".csv";
             run_search(query,result_file,departure_time);
         }
         std::cout<<std::endl;
-    }else if (algorithm == "tch_cpd_l"){
-        KATCH_STATUS("Benchmark algorithm: TCH CPD with Landmark heuristic\n");
+    }else if (algorithm == "ftch_l"){
+        KATCH_STATUS("Benchmark algorithm: FTCH with Landmark heuristic\n");
         using Graph = katch::FTCH_L::Graph;
         using EdgeInfo = katch::EdgeInfo<Graph::TTF>;
         std::vector<EdgeInfo> edge_list = katch::btch_format::read_edges<EdgeInfo>(main_name+".btch",864000.0);
@@ -300,14 +300,14 @@ void run_experiments( const std::string& algorithm, const std::string& input_dir
             query->load_landmark(main_name+".landmark_"+ to_string(num_landmarks),num_landmarks);
             for(int departure_time = 0; departure_time <= 864000; departure_time += test_period){
 
-                string result_file = output_dir_name +"/tch_cpd_l_" + to_string(num_landmarks)+"_"+ to_string((int)departure_time)+".csv";
+                string result_file = output_dir_name +"/ftch_l_" + to_string(num_landmarks)+"_"+ to_string((int)departure_time)+".csv";
                 run_search(query,result_file,departure_time);
             }
             std::cout<<std::endl;
         }
     }
-    else if (algorithm == "htch"){
-        KATCH_STATUS("Benchmark algorithm: Hourly TCH\n");
+    else if (algorithm == "bstch"){
+        KATCH_STATUS("Benchmark algorithm: BSTCH\n");
         using Graph = katch::BSTCH::Graph;
         using EdgeInfo = katch::EdgeInfo<Graph::TTF>;
         std::vector<Graph> graph_vector;
@@ -318,11 +318,12 @@ void run_experiments( const std::string& algorithm, const std::string& input_dir
         graph_vector.shrink_to_fit();
         auto query = new katch::BSTCH(std::move(graph_vector));
         for(int departure_time = 0; departure_time <= 864000; departure_time += test_period){
-            string result_file = output_dir_name +"/htch_"+ to_string((int)departure_time)+".csv";
+            string result_file = output_dir_name +"/bstch_"+ to_string((int)departure_time)+".csv";
             run_search(query,result_file,departure_time);
         }
         std::cout<<std::endl;
-    }    else if(algorithm == "htch_cpd"){
+    }    else if(algorithm == "fstch_tcpd"){
+        KATCH_STATUS("Benchmark algorithm: FSTCH with TCPD heuristic\n");
         using Graph = katch::FSTCH_TCPD::Graph;
         using EdgeInfo = katch::EdgeInfo<Graph::TTF>;
         std::vector<Graph> graph_vector;
@@ -334,14 +335,14 @@ void run_experiments( const std::string& algorithm, const std::string& input_dir
         auto query = new katch::FSTCH_TCPD(std::move(graph_vector));
         query->load_cpd(main_name+"_min.fw_htch_cpd");
         for(int departure_time = 0; departure_time <= 864000; departure_time += test_period){
-            string result_file = output_dir_name +"/htch_cpd_"+ to_string((int)departure_time)+".csv";
+            string result_file = output_dir_name +"/fstch_tcpd_"+ to_string((int)departure_time)+".csv";
             run_search(query,result_file,departure_time);
         }
         std::cout<<std::endl;
 
     }
-    else if (algorithm == "ts_htch"){
-        KATCH_STATUS("Benchmark algorithm: Hourly TCH\n");
+    else if (algorithm == "bmtch"){
+        KATCH_STATUS("Benchmark algorithm: BMTCH\n");
         using Graph = katch::BMTCHQuery<& one_TCH_period >::Graph;
         using EdgeInfo = katch::EdgeInfo<Graph::TTF>;
         std::vector<Graph> graph_vector;
@@ -391,7 +392,7 @@ void run_experiments( const std::string& algorithm, const std::string& input_dir
 
 
         for(int departure_time = 0; departure_time <= 864000; departure_time += test_period){
-            string result_file = output_dir_name +"/ts_htch_"+ to_string((int)departure_time)+".csv";
+            string result_file = output_dir_name +"/bmtch_"+ to_string((int)departure_time)+".csv";
             query->query_answered_by_1_hour_query = 0;
             query->query_answered_by_2_hour_query = 0;
             query->query_answered_by_4_hour_query = 0;
@@ -404,8 +405,8 @@ void run_experiments( const std::string& algorithm, const std::string& input_dir
 
         }
         std::cout<<std::endl;
-    } else if (algorithm == "ts_htch_cpd") {
-        KATCH_STATUS("Benchmark algorithm: Hourly TCH\n");
+    } else if (algorithm == "fmtch_tcpd") {
+        KATCH_STATUS("Benchmark algorithm: FMTCH with TCPD heuristic\n");
         using Graph = katch::FMTCH_TCPDQuery<& one_TCH_period >::Graph;
         using EdgeInfo = katch::EdgeInfo<Graph::TTF>;
         std::vector<Graph> graph_vector;
@@ -458,7 +459,7 @@ void run_experiments( const std::string& algorithm, const std::string& input_dir
 
 
         for(int departure_time = 0; departure_time <= 864000; departure_time += test_period){
-            string result_file = output_dir_name +"/ts_htch_cpd_"+ to_string((int)departure_time)+".csv";
+            string result_file = output_dir_name +"/fmtch_tcpd_"+ to_string((int)departure_time)+".csv";
             query->query_answered_by_1_hour_query = 0;
             query->query_answered_by_2_hour_query = 0;
             query->query_answered_by_4_hour_query = 0;
@@ -474,8 +475,8 @@ void run_experiments( const std::string& algorithm, const std::string& input_dir
 
 
     }
-    else if (algorithm == "tch_ori_cpd"){
-        KATCH_STATUS("Benchmark algorithm: TCH with original CPD\n");
+    else if (algorithm == "ftch_cpd"){
+        KATCH_STATUS("Benchmark algorithm: FTCH with original CPD heuristic\n");
         using Graph = katch::FTCH_CPD::Graph;
         using EdgeInfo = katch::EdgeInfo<Graph::TTF>;
         std::vector<EdgeInfo> edge_list = katch::btch_format::read_edges<EdgeInfo>(main_name+".btch",864000.0);
@@ -489,7 +490,7 @@ void run_experiments( const std::string& algorithm, const std::string& input_dir
 
 //        int departure_time = 0;
         for(int departure_time = 0; departure_time <= 864000; departure_time += test_period){
-            string result_file = output_dir_name +"/tch_ori_cpd_"+ to_string((int)departure_time)+".csv";
+            string result_file = output_dir_name +"/ftch_cpd_"+ to_string((int)departure_time)+".csv";
             run_search(query,result_file,departure_time);
         }
         std::cout<<std::endl;
