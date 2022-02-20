@@ -1,0 +1,11 @@
+/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build/CMakeFiles/edit_cache.dir
+/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build/CMakeFiles/construct_reverse_fw_tch_cpd.dir
+/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build/CMakeFiles/generate_landmarks.dir
+/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build/CMakeFiles/construct_fw_tch_cpd.dir
+/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build/CMakeFiles/generate_queries.dir
+/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build/CMakeFiles/construct_bw_tch_cpd.dir
+/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build/CMakeFiles/run_experiments.dir
+/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build/CMakeFiles/construct_stch_mtch.dir
+/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build/CMakeFiles/split_data.dir
+/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build/CMakeFiles/rebuild_cache.dir
+/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build/CMakeFiles/run_ordering.dir
