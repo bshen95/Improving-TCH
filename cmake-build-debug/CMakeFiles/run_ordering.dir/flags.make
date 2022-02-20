@@ -6,5 +6,5 @@ CXX_FLAGS =  -Xpreprocessor -fopenmp -g -ggdb -O0 -fno-omit-frame-pointer -isysr
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/local/Cellar/libomp/10.0.0/include -I/usr/local/Cellar/google-sparsehash/2.0.4/include -I/usr/local/Cellar/boost/1.75.0_1/include -I/Users/bshe21/Desktop/ICAPS_source_code/TCH/. -I/Users/bshe21/Desktop/ICAPS_source_code/TCH/osm_analyzer 
+CXX_INCLUDES = -I/usr/local/Cellar/libomp/10.0.0/include -I/usr/local/Cellar/google-sparsehash/2.0.4/include -I/usr/local/Cellar/boost/1.75.0_1/include -I"/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/." -I"/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/osm_analyzer" 
 

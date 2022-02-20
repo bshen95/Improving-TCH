@@ -46,10 +46,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/bshe21/Desktop/ICAPS_source_code/TCH
+CMAKE_SOURCE_DIR = "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug
+CMAKE_BINARY_DIR = "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/split_data.dir/depend.make
@@ -62,81 +62,81 @@ include CMakeFiles/split_data.dir/flags.make
 
 CMakeFiles/split_data.dir/datastr/base/bit_vector.cpp.o: CMakeFiles/split_data.dir/flags.make
 CMakeFiles/split_data.dir/datastr/base/bit_vector.cpp.o: ../datastr/base/bit_vector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/split_data.dir/datastr/base/bit_vector.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/split_data.dir/datastr/base/bit_vector.cpp.o -c /Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/base/bit_vector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/split_data.dir/datastr/base/bit_vector.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/split_data.dir/datastr/base/bit_vector.cpp.o -c "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/base/bit_vector.cpp"
 
 CMakeFiles/split_data.dir/datastr/base/bit_vector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/split_data.dir/datastr/base/bit_vector.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/base/bit_vector.cpp > CMakeFiles/split_data.dir/datastr/base/bit_vector.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/base/bit_vector.cpp" > CMakeFiles/split_data.dir/datastr/base/bit_vector.cpp.i
 
 CMakeFiles/split_data.dir/datastr/base/bit_vector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/split_data.dir/datastr/base/bit_vector.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/base/bit_vector.cpp -o CMakeFiles/split_data.dir/datastr/base/bit_vector.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/base/bit_vector.cpp" -o CMakeFiles/split_data.dir/datastr/base/bit_vector.cpp.s
 
 CMakeFiles/split_data.dir/datastr/cpd/cpd.cpp.o: CMakeFiles/split_data.dir/flags.make
 CMakeFiles/split_data.dir/datastr/cpd/cpd.cpp.o: ../datastr/cpd/cpd.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/split_data.dir/datastr/cpd/cpd.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/split_data.dir/datastr/cpd/cpd.cpp.o -c /Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/cpd/cpd.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/split_data.dir/datastr/cpd/cpd.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/split_data.dir/datastr/cpd/cpd.cpp.o -c "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/cpd/cpd.cpp"
 
 CMakeFiles/split_data.dir/datastr/cpd/cpd.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/split_data.dir/datastr/cpd/cpd.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/cpd/cpd.cpp > CMakeFiles/split_data.dir/datastr/cpd/cpd.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/cpd/cpd.cpp" > CMakeFiles/split_data.dir/datastr/cpd/cpd.cpp.i
 
 CMakeFiles/split_data.dir/datastr/cpd/cpd.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/split_data.dir/datastr/cpd/cpd.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/cpd/cpd.cpp -o CMakeFiles/split_data.dir/datastr/cpd/cpd.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/cpd/cpd.cpp" -o CMakeFiles/split_data.dir/datastr/cpd/cpd.cpp.s
 
 CMakeFiles/split_data.dir/datastr/cpd/bw_cpd.cpp.o: CMakeFiles/split_data.dir/flags.make
 CMakeFiles/split_data.dir/datastr/cpd/bw_cpd.cpp.o: ../datastr/cpd/bw_cpd.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/split_data.dir/datastr/cpd/bw_cpd.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/split_data.dir/datastr/cpd/bw_cpd.cpp.o -c /Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/cpd/bw_cpd.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/split_data.dir/datastr/cpd/bw_cpd.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/split_data.dir/datastr/cpd/bw_cpd.cpp.o -c "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/cpd/bw_cpd.cpp"
 
 CMakeFiles/split_data.dir/datastr/cpd/bw_cpd.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/split_data.dir/datastr/cpd/bw_cpd.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/cpd/bw_cpd.cpp > CMakeFiles/split_data.dir/datastr/cpd/bw_cpd.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/cpd/bw_cpd.cpp" > CMakeFiles/split_data.dir/datastr/cpd/bw_cpd.cpp.i
 
 CMakeFiles/split_data.dir/datastr/cpd/bw_cpd.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/split_data.dir/datastr/cpd/bw_cpd.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/cpd/bw_cpd.cpp -o CMakeFiles/split_data.dir/datastr/cpd/bw_cpd.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/cpd/bw_cpd.cpp" -o CMakeFiles/split_data.dir/datastr/cpd/bw_cpd.cpp.s
 
 CMakeFiles/split_data.dir/datastr/cpd/rev_bw_cpd.cpp.o: CMakeFiles/split_data.dir/flags.make
 CMakeFiles/split_data.dir/datastr/cpd/rev_bw_cpd.cpp.o: ../datastr/cpd/rev_bw_cpd.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/split_data.dir/datastr/cpd/rev_bw_cpd.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/split_data.dir/datastr/cpd/rev_bw_cpd.cpp.o -c /Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/cpd/rev_bw_cpd.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/split_data.dir/datastr/cpd/rev_bw_cpd.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/split_data.dir/datastr/cpd/rev_bw_cpd.cpp.o -c "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/cpd/rev_bw_cpd.cpp"
 
 CMakeFiles/split_data.dir/datastr/cpd/rev_bw_cpd.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/split_data.dir/datastr/cpd/rev_bw_cpd.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/cpd/rev_bw_cpd.cpp > CMakeFiles/split_data.dir/datastr/cpd/rev_bw_cpd.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/cpd/rev_bw_cpd.cpp" > CMakeFiles/split_data.dir/datastr/cpd/rev_bw_cpd.cpp.i
 
 CMakeFiles/split_data.dir/datastr/cpd/rev_bw_cpd.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/split_data.dir/datastr/cpd/rev_bw_cpd.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/cpd/rev_bw_cpd.cpp -o CMakeFiles/split_data.dir/datastr/cpd/rev_bw_cpd.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/cpd/rev_bw_cpd.cpp" -o CMakeFiles/split_data.dir/datastr/cpd/rev_bw_cpd.cpp.s
 
 CMakeFiles/split_data.dir/util/my_timer.cpp.o: CMakeFiles/split_data.dir/flags.make
 CMakeFiles/split_data.dir/util/my_timer.cpp.o: ../util/my_timer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/split_data.dir/util/my_timer.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/split_data.dir/util/my_timer.cpp.o -c /Users/bshe21/Desktop/ICAPS_source_code/TCH/util/my_timer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/split_data.dir/util/my_timer.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/split_data.dir/util/my_timer.cpp.o -c "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/util/my_timer.cpp"
 
 CMakeFiles/split_data.dir/util/my_timer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/split_data.dir/util/my_timer.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bshe21/Desktop/ICAPS_source_code/TCH/util/my_timer.cpp > CMakeFiles/split_data.dir/util/my_timer.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/util/my_timer.cpp" > CMakeFiles/split_data.dir/util/my_timer.cpp.i
 
 CMakeFiles/split_data.dir/util/my_timer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/split_data.dir/util/my_timer.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bshe21/Desktop/ICAPS_source_code/TCH/util/my_timer.cpp -o CMakeFiles/split_data.dir/util/my_timer.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/util/my_timer.cpp" -o CMakeFiles/split_data.dir/util/my_timer.cpp.s
 
 CMakeFiles/split_data.dir/experiments/split_data.cpp.o: CMakeFiles/split_data.dir/flags.make
 CMakeFiles/split_data.dir/experiments/split_data.cpp.o: ../experiments/split_data.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/split_data.dir/experiments/split_data.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/split_data.dir/experiments/split_data.cpp.o -c /Users/bshe21/Desktop/ICAPS_source_code/TCH/experiments/split_data.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/split_data.dir/experiments/split_data.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/split_data.dir/experiments/split_data.cpp.o -c "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/experiments/split_data.cpp"
 
 CMakeFiles/split_data.dir/experiments/split_data.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/split_data.dir/experiments/split_data.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bshe21/Desktop/ICAPS_source_code/TCH/experiments/split_data.cpp > CMakeFiles/split_data.dir/experiments/split_data.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/experiments/split_data.cpp" > CMakeFiles/split_data.dir/experiments/split_data.cpp.i
 
 CMakeFiles/split_data.dir/experiments/split_data.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/split_data.dir/experiments/split_data.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bshe21/Desktop/ICAPS_source_code/TCH/experiments/split_data.cpp -o CMakeFiles/split_data.dir/experiments/split_data.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/experiments/split_data.cpp" -o CMakeFiles/split_data.dir/experiments/split_data.cpp.s
 
 # Object files for target split_data
 split_data_OBJECTS = \
@@ -158,7 +158,7 @@ split_data_EXTERNAL_OBJECTS =
 ../bin/split_data: CMakeFiles/split_data.dir/experiments/split_data.cpp.o
 ../bin/split_data: CMakeFiles/split_data.dir/build.make
 ../bin/split_data: CMakeFiles/split_data.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ../bin/split_data"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ../bin/split_data"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/split_data.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -171,6 +171,6 @@ CMakeFiles/split_data.dir/clean:
 .PHONY : CMakeFiles/split_data.dir/clean
 
 CMakeFiles/split_data.dir/depend:
-	cd /Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/bshe21/Desktop/ICAPS_source_code/TCH /Users/bshe21/Desktop/ICAPS_source_code/TCH /Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug /Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug /Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/CMakeFiles/split_data.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH" "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH" "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cmake-build-debug" "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cmake-build-debug" "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cmake-build-debug/CMakeFiles/split_data.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/split_data.dir/depend
 

@@ -46,10 +46,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/bshe21/Desktop/ICAPS_source_code/TCH
+CMAKE_SOURCE_DIR = "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug
+CMAKE_BINARY_DIR = "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/construct_stch_mtch.dir/depend.make
@@ -62,81 +62,81 @@ include CMakeFiles/construct_stch_mtch.dir/flags.make
 
 CMakeFiles/construct_stch_mtch.dir/datastr/base/bit_vector.cpp.o: CMakeFiles/construct_stch_mtch.dir/flags.make
 CMakeFiles/construct_stch_mtch.dir/datastr/base/bit_vector.cpp.o: ../datastr/base/bit_vector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/construct_stch_mtch.dir/datastr/base/bit_vector.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/construct_stch_mtch.dir/datastr/base/bit_vector.cpp.o -c /Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/base/bit_vector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/construct_stch_mtch.dir/datastr/base/bit_vector.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/construct_stch_mtch.dir/datastr/base/bit_vector.cpp.o -c "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/base/bit_vector.cpp"
 
 CMakeFiles/construct_stch_mtch.dir/datastr/base/bit_vector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/construct_stch_mtch.dir/datastr/base/bit_vector.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/base/bit_vector.cpp > CMakeFiles/construct_stch_mtch.dir/datastr/base/bit_vector.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/base/bit_vector.cpp" > CMakeFiles/construct_stch_mtch.dir/datastr/base/bit_vector.cpp.i
 
 CMakeFiles/construct_stch_mtch.dir/datastr/base/bit_vector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/construct_stch_mtch.dir/datastr/base/bit_vector.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/base/bit_vector.cpp -o CMakeFiles/construct_stch_mtch.dir/datastr/base/bit_vector.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/base/bit_vector.cpp" -o CMakeFiles/construct_stch_mtch.dir/datastr/base/bit_vector.cpp.s
 
 CMakeFiles/construct_stch_mtch.dir/datastr/cpd/cpd.cpp.o: CMakeFiles/construct_stch_mtch.dir/flags.make
 CMakeFiles/construct_stch_mtch.dir/datastr/cpd/cpd.cpp.o: ../datastr/cpd/cpd.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/construct_stch_mtch.dir/datastr/cpd/cpd.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/construct_stch_mtch.dir/datastr/cpd/cpd.cpp.o -c /Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/cpd/cpd.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/construct_stch_mtch.dir/datastr/cpd/cpd.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/construct_stch_mtch.dir/datastr/cpd/cpd.cpp.o -c "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/cpd/cpd.cpp"
 
 CMakeFiles/construct_stch_mtch.dir/datastr/cpd/cpd.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/construct_stch_mtch.dir/datastr/cpd/cpd.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/cpd/cpd.cpp > CMakeFiles/construct_stch_mtch.dir/datastr/cpd/cpd.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/cpd/cpd.cpp" > CMakeFiles/construct_stch_mtch.dir/datastr/cpd/cpd.cpp.i
 
 CMakeFiles/construct_stch_mtch.dir/datastr/cpd/cpd.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/construct_stch_mtch.dir/datastr/cpd/cpd.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/cpd/cpd.cpp -o CMakeFiles/construct_stch_mtch.dir/datastr/cpd/cpd.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/cpd/cpd.cpp" -o CMakeFiles/construct_stch_mtch.dir/datastr/cpd/cpd.cpp.s
 
 CMakeFiles/construct_stch_mtch.dir/datastr/cpd/bw_cpd.cpp.o: CMakeFiles/construct_stch_mtch.dir/flags.make
 CMakeFiles/construct_stch_mtch.dir/datastr/cpd/bw_cpd.cpp.o: ../datastr/cpd/bw_cpd.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/construct_stch_mtch.dir/datastr/cpd/bw_cpd.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/construct_stch_mtch.dir/datastr/cpd/bw_cpd.cpp.o -c /Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/cpd/bw_cpd.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/construct_stch_mtch.dir/datastr/cpd/bw_cpd.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/construct_stch_mtch.dir/datastr/cpd/bw_cpd.cpp.o -c "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/cpd/bw_cpd.cpp"
 
 CMakeFiles/construct_stch_mtch.dir/datastr/cpd/bw_cpd.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/construct_stch_mtch.dir/datastr/cpd/bw_cpd.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/cpd/bw_cpd.cpp > CMakeFiles/construct_stch_mtch.dir/datastr/cpd/bw_cpd.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/cpd/bw_cpd.cpp" > CMakeFiles/construct_stch_mtch.dir/datastr/cpd/bw_cpd.cpp.i
 
 CMakeFiles/construct_stch_mtch.dir/datastr/cpd/bw_cpd.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/construct_stch_mtch.dir/datastr/cpd/bw_cpd.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/cpd/bw_cpd.cpp -o CMakeFiles/construct_stch_mtch.dir/datastr/cpd/bw_cpd.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/cpd/bw_cpd.cpp" -o CMakeFiles/construct_stch_mtch.dir/datastr/cpd/bw_cpd.cpp.s
 
 CMakeFiles/construct_stch_mtch.dir/datastr/cpd/rev_bw_cpd.cpp.o: CMakeFiles/construct_stch_mtch.dir/flags.make
 CMakeFiles/construct_stch_mtch.dir/datastr/cpd/rev_bw_cpd.cpp.o: ../datastr/cpd/rev_bw_cpd.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/construct_stch_mtch.dir/datastr/cpd/rev_bw_cpd.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/construct_stch_mtch.dir/datastr/cpd/rev_bw_cpd.cpp.o -c /Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/cpd/rev_bw_cpd.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/construct_stch_mtch.dir/datastr/cpd/rev_bw_cpd.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/construct_stch_mtch.dir/datastr/cpd/rev_bw_cpd.cpp.o -c "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/cpd/rev_bw_cpd.cpp"
 
 CMakeFiles/construct_stch_mtch.dir/datastr/cpd/rev_bw_cpd.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/construct_stch_mtch.dir/datastr/cpd/rev_bw_cpd.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/cpd/rev_bw_cpd.cpp > CMakeFiles/construct_stch_mtch.dir/datastr/cpd/rev_bw_cpd.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/cpd/rev_bw_cpd.cpp" > CMakeFiles/construct_stch_mtch.dir/datastr/cpd/rev_bw_cpd.cpp.i
 
 CMakeFiles/construct_stch_mtch.dir/datastr/cpd/rev_bw_cpd.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/construct_stch_mtch.dir/datastr/cpd/rev_bw_cpd.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/cpd/rev_bw_cpd.cpp -o CMakeFiles/construct_stch_mtch.dir/datastr/cpd/rev_bw_cpd.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/cpd/rev_bw_cpd.cpp" -o CMakeFiles/construct_stch_mtch.dir/datastr/cpd/rev_bw_cpd.cpp.s
 
 CMakeFiles/construct_stch_mtch.dir/util/my_timer.cpp.o: CMakeFiles/construct_stch_mtch.dir/flags.make
 CMakeFiles/construct_stch_mtch.dir/util/my_timer.cpp.o: ../util/my_timer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/construct_stch_mtch.dir/util/my_timer.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/construct_stch_mtch.dir/util/my_timer.cpp.o -c /Users/bshe21/Desktop/ICAPS_source_code/TCH/util/my_timer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/construct_stch_mtch.dir/util/my_timer.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/construct_stch_mtch.dir/util/my_timer.cpp.o -c "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/util/my_timer.cpp"
 
 CMakeFiles/construct_stch_mtch.dir/util/my_timer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/construct_stch_mtch.dir/util/my_timer.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bshe21/Desktop/ICAPS_source_code/TCH/util/my_timer.cpp > CMakeFiles/construct_stch_mtch.dir/util/my_timer.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/util/my_timer.cpp" > CMakeFiles/construct_stch_mtch.dir/util/my_timer.cpp.i
 
 CMakeFiles/construct_stch_mtch.dir/util/my_timer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/construct_stch_mtch.dir/util/my_timer.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bshe21/Desktop/ICAPS_source_code/TCH/util/my_timer.cpp -o CMakeFiles/construct_stch_mtch.dir/util/my_timer.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/util/my_timer.cpp" -o CMakeFiles/construct_stch_mtch.dir/util/my_timer.cpp.s
 
 CMakeFiles/construct_stch_mtch.dir/experiments/construct_stch_mtch.cpp.o: CMakeFiles/construct_stch_mtch.dir/flags.make
 CMakeFiles/construct_stch_mtch.dir/experiments/construct_stch_mtch.cpp.o: ../experiments/construct_stch_mtch.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/construct_stch_mtch.dir/experiments/construct_stch_mtch.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/construct_stch_mtch.dir/experiments/construct_stch_mtch.cpp.o -c /Users/bshe21/Desktop/ICAPS_source_code/TCH/experiments/construct_stch_mtch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/construct_stch_mtch.dir/experiments/construct_stch_mtch.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/construct_stch_mtch.dir/experiments/construct_stch_mtch.cpp.o -c "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/experiments/construct_stch_mtch.cpp"
 
 CMakeFiles/construct_stch_mtch.dir/experiments/construct_stch_mtch.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/construct_stch_mtch.dir/experiments/construct_stch_mtch.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bshe21/Desktop/ICAPS_source_code/TCH/experiments/construct_stch_mtch.cpp > CMakeFiles/construct_stch_mtch.dir/experiments/construct_stch_mtch.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/experiments/construct_stch_mtch.cpp" > CMakeFiles/construct_stch_mtch.dir/experiments/construct_stch_mtch.cpp.i
 
 CMakeFiles/construct_stch_mtch.dir/experiments/construct_stch_mtch.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/construct_stch_mtch.dir/experiments/construct_stch_mtch.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bshe21/Desktop/ICAPS_source_code/TCH/experiments/construct_stch_mtch.cpp -o CMakeFiles/construct_stch_mtch.dir/experiments/construct_stch_mtch.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/experiments/construct_stch_mtch.cpp" -o CMakeFiles/construct_stch_mtch.dir/experiments/construct_stch_mtch.cpp.s
 
 # Object files for target construct_stch_mtch
 construct_stch_mtch_OBJECTS = \
@@ -159,7 +159,7 @@ construct_stch_mtch_EXTERNAL_OBJECTS =
 ../bin/construct_stch_mtch: CMakeFiles/construct_stch_mtch.dir/build.make
 ../bin/construct_stch_mtch: /usr/local/lib/libomp.dylib
 ../bin/construct_stch_mtch: CMakeFiles/construct_stch_mtch.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ../bin/construct_stch_mtch"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ../bin/construct_stch_mtch"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/construct_stch_mtch.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -172,6 +172,6 @@ CMakeFiles/construct_stch_mtch.dir/clean:
 .PHONY : CMakeFiles/construct_stch_mtch.dir/clean
 
 CMakeFiles/construct_stch_mtch.dir/depend:
-	cd /Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/bshe21/Desktop/ICAPS_source_code/TCH /Users/bshe21/Desktop/ICAPS_source_code/TCH /Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug /Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug /Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/CMakeFiles/construct_stch_mtch.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH" "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH" "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cmake-build-debug" "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cmake-build-debug" "/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cmake-build-debug/CMakeFiles/construct_stch_mtch.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/construct_stch_mtch.dir/depend
 

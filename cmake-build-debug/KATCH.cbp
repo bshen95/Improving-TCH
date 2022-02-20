@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug"/>
+				<Option working_dir="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug"/>
+				<Option working_dir="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="construct_reverse_fw_tch_cpd">
-				<Option output="/Users/bshe21/Desktop/ICAPS_source_code/TCH/bin/construct_reverse_fw_tch_cpd" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/../bin"/>
+				<Option output="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/bin/construct_reverse_fw_tch_cpd" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cmake-build-debug/../bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -37,8 +37,8 @@
 					<Add directory="/usr/local/Cellar/libomp/10.0.0/include"/>
 					<Add directory="/usr/local/Cellar/google-sparsehash/2.0.4/include"/>
 					<Add directory="/usr/local/Cellar/boost/1.75.0_1/include"/>
-					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/TCH/."/>
-					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/TCH/osm_analyzer"/>
+					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/."/>
+					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/osm_analyzer"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
@@ -47,15 +47,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 construct_reverse_fw_tch_cpd"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 construct_reverse_fw_tch_cpd"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="construct_reverse_fw_tch_cpd/fast">
-				<Option output="/Users/bshe21/Desktop/ICAPS_source_code/TCH/bin/construct_reverse_fw_tch_cpd" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/../bin"/>
+				<Option output="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/bin/construct_reverse_fw_tch_cpd" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cmake-build-debug/../bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -63,8 +63,8 @@
 					<Add directory="/usr/local/Cellar/libomp/10.0.0/include"/>
 					<Add directory="/usr/local/Cellar/google-sparsehash/2.0.4/include"/>
 					<Add directory="/usr/local/Cellar/boost/1.75.0_1/include"/>
-					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/TCH/."/>
-					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/TCH/osm_analyzer"/>
+					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/."/>
+					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/osm_analyzer"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
@@ -73,15 +73,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 construct_reverse_fw_tch_cpd/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 construct_reverse_fw_tch_cpd/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="generate_landmarks">
-				<Option output="/Users/bshe21/Desktop/ICAPS_source_code/TCH/bin/generate_landmarks" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/../bin"/>
+				<Option output="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/bin/generate_landmarks" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cmake-build-debug/../bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -89,8 +89,8 @@
 					<Add directory="/usr/local/Cellar/libomp/10.0.0/include"/>
 					<Add directory="/usr/local/Cellar/google-sparsehash/2.0.4/include"/>
 					<Add directory="/usr/local/Cellar/boost/1.75.0_1/include"/>
-					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/TCH/."/>
-					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/TCH/osm_analyzer"/>
+					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/."/>
+					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/osm_analyzer"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
@@ -99,15 +99,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 generate_landmarks"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 generate_landmarks"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="generate_landmarks/fast">
-				<Option output="/Users/bshe21/Desktop/ICAPS_source_code/TCH/bin/generate_landmarks" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/../bin"/>
+				<Option output="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/bin/generate_landmarks" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cmake-build-debug/../bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -115,8 +115,8 @@
 					<Add directory="/usr/local/Cellar/libomp/10.0.0/include"/>
 					<Add directory="/usr/local/Cellar/google-sparsehash/2.0.4/include"/>
 					<Add directory="/usr/local/Cellar/boost/1.75.0_1/include"/>
-					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/TCH/."/>
-					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/TCH/osm_analyzer"/>
+					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/."/>
+					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/osm_analyzer"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
@@ -125,15 +125,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 generate_landmarks/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 generate_landmarks/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="construct_fw_tch_cpd">
-				<Option output="/Users/bshe21/Desktop/ICAPS_source_code/TCH/bin/construct_fw_tch_cpd" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/../bin"/>
+				<Option output="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/bin/construct_fw_tch_cpd" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cmake-build-debug/../bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -141,8 +141,8 @@
 					<Add directory="/usr/local/Cellar/libomp/10.0.0/include"/>
 					<Add directory="/usr/local/Cellar/google-sparsehash/2.0.4/include"/>
 					<Add directory="/usr/local/Cellar/boost/1.75.0_1/include"/>
-					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/TCH/."/>
-					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/TCH/osm_analyzer"/>
+					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/."/>
+					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/osm_analyzer"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
@@ -151,15 +151,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 construct_fw_tch_cpd"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 construct_fw_tch_cpd"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="construct_fw_tch_cpd/fast">
-				<Option output="/Users/bshe21/Desktop/ICAPS_source_code/TCH/bin/construct_fw_tch_cpd" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/../bin"/>
+				<Option output="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/bin/construct_fw_tch_cpd" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cmake-build-debug/../bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -167,8 +167,8 @@
 					<Add directory="/usr/local/Cellar/libomp/10.0.0/include"/>
 					<Add directory="/usr/local/Cellar/google-sparsehash/2.0.4/include"/>
 					<Add directory="/usr/local/Cellar/boost/1.75.0_1/include"/>
-					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/TCH/."/>
-					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/TCH/osm_analyzer"/>
+					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/."/>
+					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/osm_analyzer"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
@@ -177,15 +177,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 construct_fw_tch_cpd/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 construct_fw_tch_cpd/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="generate_queries">
-				<Option output="/Users/bshe21/Desktop/ICAPS_source_code/TCH/bin/generate_queries" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/../bin"/>
+				<Option output="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/bin/generate_queries" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cmake-build-debug/../bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -193,8 +193,8 @@
 					<Add directory="/usr/local/Cellar/libomp/10.0.0/include"/>
 					<Add directory="/usr/local/Cellar/google-sparsehash/2.0.4/include"/>
 					<Add directory="/usr/local/Cellar/boost/1.75.0_1/include"/>
-					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/TCH/."/>
-					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/TCH/osm_analyzer"/>
+					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/."/>
+					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/osm_analyzer"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
@@ -203,15 +203,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 generate_queries"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 generate_queries"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="generate_queries/fast">
-				<Option output="/Users/bshe21/Desktop/ICAPS_source_code/TCH/bin/generate_queries" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/../bin"/>
+				<Option output="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/bin/generate_queries" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cmake-build-debug/../bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -219,8 +219,8 @@
 					<Add directory="/usr/local/Cellar/libomp/10.0.0/include"/>
 					<Add directory="/usr/local/Cellar/google-sparsehash/2.0.4/include"/>
 					<Add directory="/usr/local/Cellar/boost/1.75.0_1/include"/>
-					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/TCH/."/>
-					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/TCH/osm_analyzer"/>
+					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/."/>
+					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/osm_analyzer"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
@@ -229,15 +229,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 generate_queries/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 generate_queries/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="construct_bw_tch_cpd">
-				<Option output="/Users/bshe21/Desktop/ICAPS_source_code/TCH/bin/construct_bw_tch_cpd" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/../bin"/>
+				<Option output="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/bin/construct_bw_tch_cpd" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cmake-build-debug/../bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -245,8 +245,8 @@
 					<Add directory="/usr/local/Cellar/libomp/10.0.0/include"/>
 					<Add directory="/usr/local/Cellar/google-sparsehash/2.0.4/include"/>
 					<Add directory="/usr/local/Cellar/boost/1.75.0_1/include"/>
-					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/TCH/."/>
-					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/TCH/osm_analyzer"/>
+					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/."/>
+					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/osm_analyzer"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
@@ -255,15 +255,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 construct_bw_tch_cpd"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 construct_bw_tch_cpd"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="construct_bw_tch_cpd/fast">
-				<Option output="/Users/bshe21/Desktop/ICAPS_source_code/TCH/bin/construct_bw_tch_cpd" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/../bin"/>
+				<Option output="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/bin/construct_bw_tch_cpd" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cmake-build-debug/../bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -271,8 +271,8 @@
 					<Add directory="/usr/local/Cellar/libomp/10.0.0/include"/>
 					<Add directory="/usr/local/Cellar/google-sparsehash/2.0.4/include"/>
 					<Add directory="/usr/local/Cellar/boost/1.75.0_1/include"/>
-					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/TCH/."/>
-					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/TCH/osm_analyzer"/>
+					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/."/>
+					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/osm_analyzer"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
@@ -281,15 +281,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 construct_bw_tch_cpd/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 construct_bw_tch_cpd/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="run_experiments">
-				<Option output="/Users/bshe21/Desktop/ICAPS_source_code/TCH/bin/run_experiments" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/../bin"/>
+				<Option output="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/bin/run_experiments" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cmake-build-debug/../bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -297,8 +297,8 @@
 					<Add directory="/usr/local/Cellar/libomp/10.0.0/include"/>
 					<Add directory="/usr/local/Cellar/google-sparsehash/2.0.4/include"/>
 					<Add directory="/usr/local/Cellar/boost/1.75.0_1/include"/>
-					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/TCH/."/>
-					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/TCH/osm_analyzer"/>
+					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/."/>
+					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/osm_analyzer"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
@@ -307,15 +307,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 run_experiments"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 run_experiments"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="run_experiments/fast">
-				<Option output="/Users/bshe21/Desktop/ICAPS_source_code/TCH/bin/run_experiments" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/../bin"/>
+				<Option output="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/bin/run_experiments" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cmake-build-debug/../bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -323,8 +323,8 @@
 					<Add directory="/usr/local/Cellar/libomp/10.0.0/include"/>
 					<Add directory="/usr/local/Cellar/google-sparsehash/2.0.4/include"/>
 					<Add directory="/usr/local/Cellar/boost/1.75.0_1/include"/>
-					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/TCH/."/>
-					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/TCH/osm_analyzer"/>
+					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/."/>
+					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/osm_analyzer"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
@@ -333,15 +333,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 run_experiments/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 run_experiments/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="construct_stch_mtch">
-				<Option output="/Users/bshe21/Desktop/ICAPS_source_code/TCH/bin/construct_stch_mtch" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/../bin"/>
+				<Option output="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/bin/construct_stch_mtch" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cmake-build-debug/../bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -349,8 +349,8 @@
 					<Add directory="/usr/local/Cellar/libomp/10.0.0/include"/>
 					<Add directory="/usr/local/Cellar/google-sparsehash/2.0.4/include"/>
 					<Add directory="/usr/local/Cellar/boost/1.75.0_1/include"/>
-					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/TCH/."/>
-					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/TCH/osm_analyzer"/>
+					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/."/>
+					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/osm_analyzer"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
@@ -359,15 +359,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 construct_stch_mtch"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 construct_stch_mtch"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="construct_stch_mtch/fast">
-				<Option output="/Users/bshe21/Desktop/ICAPS_source_code/TCH/bin/construct_stch_mtch" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/../bin"/>
+				<Option output="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/bin/construct_stch_mtch" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cmake-build-debug/../bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -375,8 +375,8 @@
 					<Add directory="/usr/local/Cellar/libomp/10.0.0/include"/>
 					<Add directory="/usr/local/Cellar/google-sparsehash/2.0.4/include"/>
 					<Add directory="/usr/local/Cellar/boost/1.75.0_1/include"/>
-					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/TCH/."/>
-					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/TCH/osm_analyzer"/>
+					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/."/>
+					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/osm_analyzer"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
@@ -385,15 +385,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 construct_stch_mtch/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 construct_stch_mtch/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="split_data">
-				<Option output="/Users/bshe21/Desktop/ICAPS_source_code/TCH/bin/split_data" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/../bin"/>
+				<Option output="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/bin/split_data" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cmake-build-debug/../bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -401,8 +401,8 @@
 					<Add directory="/usr/local/Cellar/libomp/10.0.0/include"/>
 					<Add directory="/usr/local/Cellar/google-sparsehash/2.0.4/include"/>
 					<Add directory="/usr/local/Cellar/boost/1.75.0_1/include"/>
-					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/TCH/."/>
-					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/TCH/osm_analyzer"/>
+					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/."/>
+					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/osm_analyzer"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
@@ -411,15 +411,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 split_data"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 split_data"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="split_data/fast">
-				<Option output="/Users/bshe21/Desktop/ICAPS_source_code/TCH/bin/split_data" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/../bin"/>
+				<Option output="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/bin/split_data" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cmake-build-debug/../bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -427,8 +427,8 @@
 					<Add directory="/usr/local/Cellar/libomp/10.0.0/include"/>
 					<Add directory="/usr/local/Cellar/google-sparsehash/2.0.4/include"/>
 					<Add directory="/usr/local/Cellar/boost/1.75.0_1/include"/>
-					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/TCH/."/>
-					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/TCH/osm_analyzer"/>
+					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/."/>
+					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/osm_analyzer"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
@@ -437,25 +437,25 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 split_data/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 split_data/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug"/>
+				<Option working_dir="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="run_ordering">
-				<Option output="/Users/bshe21/Desktop/ICAPS_source_code/TCH/bin/run_ordering" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/../bin"/>
+				<Option output="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/bin/run_ordering" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cmake-build-debug/../bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -463,8 +463,8 @@
 					<Add directory="/usr/local/Cellar/libomp/10.0.0/include"/>
 					<Add directory="/usr/local/Cellar/google-sparsehash/2.0.4/include"/>
 					<Add directory="/usr/local/Cellar/boost/1.75.0_1/include"/>
-					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/TCH/."/>
-					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/TCH/osm_analyzer"/>
+					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/."/>
+					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/osm_analyzer"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
@@ -473,15 +473,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 run_ordering"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 run_ordering"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="run_ordering/fast">
-				<Option output="/Users/bshe21/Desktop/ICAPS_source_code/TCH/bin/run_ordering" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/../bin"/>
+				<Option output="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/bin/run_ordering" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cmake-build-debug/../bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -489,8 +489,8 @@
 					<Add directory="/usr/local/Cellar/libomp/10.0.0/include"/>
 					<Add directory="/usr/local/Cellar/google-sparsehash/2.0.4/include"/>
 					<Add directory="/usr/local/Cellar/boost/1.75.0_1/include"/>
-					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/TCH/."/>
-					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/TCH/osm_analyzer"/>
+					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/."/>
+					<Add directory="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/osm_analyzer"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
@@ -499,14 +499,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 run_ordering/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 run_ordering/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bshe21/Desktop/ICAPS_source_code/Improving\ TCH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/context/bi_search_context.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/context/bi_search_context.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -517,7 +517,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/context/search_context.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/context/search_context.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -528,7 +528,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/cpd_prepro/reverse_tch_updown_query.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cpd_prepro/reverse_tch_updown_query.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -539,7 +539,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/cpd_prepro/st_dijkstra_query.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cpd_prepro/st_dijkstra_query.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -550,7 +550,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/cpd_prepro/tch_dijkstra_query.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cpd_prepro/tch_dijkstra_query.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -561,7 +561,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/cpd_prepro/tch_downward_dijkstra_query.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cpd_prepro/tch_downward_dijkstra_query.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -572,7 +572,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/cpd_prepro/tch_updown_query.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cpd_prepro/tch_updown_query.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -583,7 +583,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/cpd_prepro/tch_upward_dijkstra_query.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/cpd_prepro/tch_upward_dijkstra_query.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -594,7 +594,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/base/bit_vector.cpp">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/base/bit_vector.cpp">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -605,7 +605,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/base/bit_vector.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/base/bit_vector.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -616,7 +616,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/base/double.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/base/double.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -627,7 +627,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/base/emulate_gcc_builtin.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/base/emulate_gcc_builtin.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -638,7 +638,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/base/interval.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/base/interval.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -649,7 +649,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/base/point.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/base/point.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -660,7 +660,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/base/pwl_ttf.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/base/pwl_ttf.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -671,7 +671,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/base/spline.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/base/spline.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -682,7 +682,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/base/ttf_wrapper.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/base/ttf_wrapper.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -693,7 +693,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/cpd/binary_search.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/cpd/binary_search.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -704,7 +704,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/cpd/bw_cpd.cpp">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/cpd/bw_cpd.cpp">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -715,7 +715,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/cpd/bw_cpd.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/cpd/bw_cpd.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -726,7 +726,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/cpd/cpd.cpp">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/cpd/cpd.cpp">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -737,7 +737,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/cpd/cpd.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/cpd/cpd.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -748,7 +748,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/cpd/range.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/cpd/range.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -759,7 +759,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/cpd/rev_bw_cpd.cpp">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/cpd/rev_bw_cpd.cpp">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -770,7 +770,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/cpd/rev_bw_cpd.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/cpd/rev_bw_cpd.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -781,7 +781,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/cpd/rev_cpd.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/cpd/rev_cpd.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -792,7 +792,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/graph/basic.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/graph/basic.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -803,7 +803,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/graph/dynamic_graph.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/graph/dynamic_graph.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -814,7 +814,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/graph/dynamic_search_graph.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/graph/dynamic_search_graph.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -825,7 +825,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/graph/forward_search_graph.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/graph/forward_search_graph.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -836,7 +836,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/graph/order_edge_data.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/graph/order_edge_data.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -847,7 +847,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/graph/search_graph.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/graph/search_graph.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -858,7 +858,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/graph/static_forward_search_graph.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/graph/static_forward_search_graph.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -869,7 +869,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/datastr/graph/static_search_graph.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/datastr/graph/static_search_graph.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -880,45 +880,34 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/experiments/construct_bw_tch_cpd.cpp">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/experiments/construct_bw_tch_cpd.cpp">
 			<Option target="construct_bw_tch_cpd"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/experiments/construct_fw_tch_cpd.cpp">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/experiments/construct_fw_tch_cpd.cpp">
 			<Option target="construct_fw_tch_cpd"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/experiments/construct_reverse_fw_tch_cpd.cpp">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/experiments/construct_reverse_fw_tch_cpd.cpp">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/experiments/construct_stch_mtch.cpp">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/experiments/construct_stch_mtch.cpp">
 			<Option target="construct_stch_mtch"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/experiments/generate_landmarks.cpp">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/experiments/generate_landmarks.cpp">
 			<Option target="generate_landmarks"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/experiments/generate_queries.cpp">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/experiments/generate_queries.cpp">
 			<Option target="generate_queries"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/experiments/run_experiments.cpp">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/experiments/run_experiments.cpp">
 			<Option target="run_experiments"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/experiments/run_ordering.cpp">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/experiments/run_ordering.cpp">
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/experiments/split_data.cpp">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/experiments/split_data.cpp">
 			<Option target="split_data"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/io/binary.h">
-			<Option target="construct_reverse_fw_tch_cpd"/>
-			<Option target="generate_landmarks"/>
-			<Option target="construct_fw_tch_cpd"/>
-			<Option target="generate_queries"/>
-			<Option target="construct_bw_tch_cpd"/>
-			<Option target="run_experiments"/>
-			<Option target="construct_stch_mtch"/>
-			<Option target="split_data"/>
-			<Option target="run_ordering"/>
-		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/io/btch_format.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/io/binary.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -929,7 +918,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/io/demands_format.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/io/btch_format.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -940,7 +929,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/io/edge_info.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/io/demands_format.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -951,7 +940,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/io/tpgr_format.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/io/edge_info.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -962,7 +951,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/io/tpgr_format_noise.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/io/tpgr_format.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -973,7 +962,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/io/vec_io.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/io/tpgr_format_noise.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -984,7 +973,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/prepro/edge_description.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/io/vec_io.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -995,7 +984,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/prepro/ordering.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/prepro/edge_description.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -1006,7 +995,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/prepro/witness_search.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/prepro/ordering.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -1017,7 +1006,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/query/BMTCH.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/prepro/witness_search.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -1028,7 +1017,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/query/BMTCH_query.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/query/BMTCH.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -1039,7 +1028,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/query/BSTCH.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/query/BMTCH_query.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -1050,7 +1039,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/query/BTCH.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/query/BSTCH.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -1061,7 +1050,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/query/BTCH_L.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/query/BTCH.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -1072,7 +1061,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/query/FMTCH_TCPD.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/query/BTCH_L.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -1083,7 +1072,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/query/FMTCH_TCPD_query.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/query/FMTCH_TCPD.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -1094,7 +1083,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/query/FTCH_CPD.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/query/FMTCH_TCPD_query.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -1105,7 +1094,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/query/FTCH_L.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/query/FTCH_CPD.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -1116,7 +1105,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/query/FTCH_RTPD.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/query/FTCH_L.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -1127,7 +1116,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/query/FTCH_TCPD.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/query/FTCH_RTPD.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -1138,7 +1127,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/query/STCH_TCPD.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/query/FTCH_TCPD.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -1149,7 +1138,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/util/id_queue.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/query/STCH_TCPD.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -1160,7 +1149,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/util/misc.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/util/id_queue.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -1171,7 +1160,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/util/my_timer.cpp">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/util/misc.h">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -1182,7 +1171,7 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/util/my_timer.h">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/util/my_timer.cpp">
 			<Option target="construct_reverse_fw_tch_cpd"/>
 			<Option target="generate_landmarks"/>
 			<Option target="construct_fw_tch_cpd"/>
@@ -1193,7 +1182,18 @@
 			<Option target="split_data"/>
 			<Option target="run_ordering"/>
 		</Unit>
-		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/TCH/CMakeLists.txt">
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/util/my_timer.h">
+			<Option target="construct_reverse_fw_tch_cpd"/>
+			<Option target="generate_landmarks"/>
+			<Option target="construct_fw_tch_cpd"/>
+			<Option target="generate_queries"/>
+			<Option target="construct_bw_tch_cpd"/>
+			<Option target="run_experiments"/>
+			<Option target="construct_stch_mtch"/>
+			<Option target="split_data"/>
+			<Option target="run_ordering"/>
+		</Unit>
+		<Unit filename="/Users/bshe21/Desktop/ICAPS_source_code/Improving TCH/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
