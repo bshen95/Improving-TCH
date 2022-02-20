@@ -1,3 +1,5 @@
 cmake-build/
 cmake-build-debug/
 bin/
+.idea/
+doc/
